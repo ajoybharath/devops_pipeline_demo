@@ -55,15 +55,15 @@ echo "--------------------------------------------------------"
 echo "View App deployed here: http://<your-instance-ip>:8180/sample.txt"
 echo "--------------------------------------------------------"
 
-YOu need to thoroughly walkthorugh the scripts before adding in the builds. 
+You need to thoroughly walkthorugh the scripts before adding in the builds. 
 There might be missing/misplaced commands so be sure of the script ;-)
 
 Now your challenge is to change the above build methods considering the following scenarios:
 
-1. Change the steps/scripts in sich a way that once your docker build is done push the docker to the 
-public docker hub.
+1. Change the steps/scripts in such a way that once your docker build is done push the docker to the 
+public docker hub to your docker hub account.
 
-2. During the deployment phase let a terrafrom code runs and ansible creates a container in the new instance 
+2. During the deployment phase let a terrafrom code runs to create a new instance and ansible creates a container in the new instance 
 by pulling the image from the public docker hub. 
 
 2. Inspired from these build scripts try to create a declarative pipeline so that the build actually pulls
