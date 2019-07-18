@@ -66,5 +66,5 @@ public docker hub to your docker hub account.
 2. During the deployment phase let a terrafrom code runs to create a new instance and ansible creates a container in the new instance 
 by pulling the image from the public docker hub. 
 
-2. Inspired from these build scripts try to create a declarative pipeline so that the build actually pulls
+3. Inspired from these build scripts try to create a declarative pipeline so that the build actually pulls
 a Jenkinsfile from your repository and start the build.
